@@ -1,0 +1,23 @@
+body {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.note-key {
+  height: 300px;
+  width: 80px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 0 10px 2px -2px grey;
+  text-align: center;
+}
+
+.pressed {
+  background-color: #ccccff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
